@@ -1,5 +1,4 @@
 # Project Portfolio
-Simple overview of use/purpose.
 
 ## Description
 

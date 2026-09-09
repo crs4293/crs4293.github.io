@@ -14,7 +14,7 @@ This repository contains a collection of some of my engineering, software, and p
 - **Major:** Computer & Electrical Engineering
 - **Additional Major:** Mathematics
 - **Interests:** Machine Learning, Signal Processing, Embedded Systems, Computer Vision, FPGA Development, Software Engineering
-- **GitHub:** [github.com/YOUR-USERNAME](https://github.com/crs4293)
+- **GitHub:** [github.com/crs4293](https://github.com/crs4293)
 
 ---
 

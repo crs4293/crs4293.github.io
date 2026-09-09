@@ -1,5 +1,71 @@
 # Project Portfolio
 
+Hi, I'm **Callum Serbetci**, a Computer & Electrical Engineering and Mathematics student at Rutgers University.
+
+I am interested in **embedded systems, FPGA development, machine learning, software development, signal processing, and engineering applications of software**.
+
+This repository contains a collection of some of my engineering, software, and personal projects.
+
+---
+
+# About Me
+
+- **University:** Rutgers University
+- **Major:** Computer & Electrical Engineering
+- **Additional Major:** Mathematics
+- **Interests:** Machine Learning, Signal Processing, Embedded Systems, Computer Vision, FPGA Development, Software Engineering
+- **GitHub:** [github.com/YOUR-USERNAME](https://github.com/crs4293)
+
+---
+
+# Projects
+
+## 1. Electrospray Spraying Mode Classification
+
+**Project Type:** Machine Learning / Signal Processing / Research
+
+**Technologies:** Python, NumPy, SciPy, Pandas, Scikit-learn, Matplotlib, PyWavelets
+
+### Overview
+
+[Write a short description of the project here.]
+
+This project uses electrical current measurements from an electrospray system to classify different spraying modes using machine learning.
+
+The system processes raw sensor data, extracts signal-processing features, and uses a machine-learning model to predict the spraying mode.
+
+### Problem
+
+[Explain the engineering problem you were trying to solve.]
+
+For example:
+
+> Manually identifying electrospray modes can be difficult because the electrical signal changes depending on the stability and behavior of the spray. The goal of this project was to develop an automated method for identifying spraying modes from electrical current measurements.
+
+### Approach
+
+The project follows the following pipeline:
+
+```text
+Raw Current Signal
+        │
+        ▼
+Signal Preprocessing
+        │
+        ▼
+Feature Extraction
+        │
+        ├── Statistical Features
+        ├── Frequency-Domain Features
+        ├── STFT Features
+        └── Wavelet Features
+        │
+        ▼
+Machine Learning Model
+        │
+        ▼
+Predicted Spraying Mode# Project Portfolio
+
 ## Getting Started
 
 ### Convolutional Neural Network on FPGA

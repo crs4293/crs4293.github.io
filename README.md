@@ -1,15 +1,11 @@
 # Project Portfolio
 
-## Description
-
-An in-depth paragraph about your project and overview of use.
-
 ## Getting Started
 
-### Dependencies
+### Convolutional Neural Network on FPGA
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* VHDL, ML, Zybo Z7
+
 
 ### Installing
 

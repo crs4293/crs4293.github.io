@@ -45,6 +45,7 @@ For example:
 ### Approach
 
 The project follows the following pipeline:
+![Project Image](image/IMG20260721133421.jpg)
 
 ```text
 Raw Current Signal

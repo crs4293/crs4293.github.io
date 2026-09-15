@@ -98,7 +98,7 @@ command to run if program contains helper info
 Contributors names and contact info
 
 ex. Dominique Pizzie  
-ex. [Google](https://www.google.com/)
+ex. ![Project Image](image/IMG20260721133421.jpg)
 
 ## Version History
 

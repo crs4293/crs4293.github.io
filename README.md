@@ -92,13 +92,15 @@ Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
+![Project Image](image/IMG20260721133421.jpg)
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. ![Project Image](image/IMG20260721133421.jpg)
+ex. Dominique Pizzie
+
+![Project Image](image/IMG20260721133421.jpg)
 
 ## Version History
 

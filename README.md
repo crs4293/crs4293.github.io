@@ -45,7 +45,7 @@ For example:
 ### Approach
 
 The project follows the following pipeline:
-![Project Image](image/IMG20260721133421.jpg)
+![Project Image](images/IMG20260721133421.jpg)
 
 ```text
 Raw Current Signal
@@ -93,7 +93,7 @@ Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
-![Project Image](image/IMG20260721133421.jpg)
+![Project Image](images/IMG20260721133421.jpg)
 
 ## Authors
 
@@ -101,7 +101,7 @@ Contributors names and contact info
 
 ex. Dominique Pizzie
 
-![Project Image](image/IMG20260721133421.jpg)
+![Project Image](images/IMG20260721133421.jpg)
 
 ## Version History
 

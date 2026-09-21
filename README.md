@@ -33,10 +33,10 @@ This project uses electrical current measurements from an electrospray system to
 The system processes raw sensor data, extracts signal-processing features, and uses a machine-learning model to predict the spraying mode.
 
 ### Problem
-```text
+
 
 > The research lab was only measuring current of a single electrospray setup due to the cost of the nano-amp current sensor whilst the spray had multiple setups running in parralel, menaing only one plant data could be recorded at a time. Additionally there was no strong classifier able to determine the spraying mode of the setup, leading to many of the targets not receiving any solution.
-```
+
 ### Approach
 
 The project follows the following pipeline:

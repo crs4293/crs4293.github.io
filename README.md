@@ -2,7 +2,7 @@
 
 Hi, I'm **Callum Serbetci**, a Computer & Electrical Engineering and Mathematics student at Rutgers University.
 
-I am interested in **embedded systems, FPGA development, machine learning, software development, signal processing, and engineering applications of software**.
+I am interested in **embedded systems, FPGA development, machine learning, software development.
 
 This repository contains a collection of some of my engineering, software, and personal projects.
 

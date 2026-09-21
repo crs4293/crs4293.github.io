@@ -28,19 +28,13 @@ This repository contains a collection of some of my engineering, software, and p
 
 ### Overview
 
-[Write a short description of the project here.]
-
 This project uses electrical current measurements from an electrospray system to classify different spraying modes using machine learning.
 
 The system processes raw sensor data, extracts signal-processing features, and uses a machine-learning model to predict the spraying mode.
 
 ### Problem
 
-[Explain the engineering problem you were trying to solve.]
-
-For example:
-
-> Manually identifying electrospray modes can be difficult because the electrical signal changes depending on the stability and behavior of the spray. The goal of this project was to develop an automated method for identifying spraying modes from electrical current measurements.
+> The research lab was only measuring current of a single electrospray setup due to the cost of the nano-amp current sensor whilst the spray had multiple setups running in parralel, menaing only one plant data could be recorded at a time. Additionally there was no strong classifier able to determine the spraying mode of the setup, leading to many of the targets not receiving any solution.
 
 ### Approach
 
@@ -48,6 +42,9 @@ The project follows the following pipeline:
 ![Project Image](images/IMG20260721133421.jpg)
 
 ```text
+Analog Signal Multiplexer
+        │
+        ▼
 Raw Current Signal
         │
         ▼

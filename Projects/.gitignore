@@ -1,0 +1,6 @@
+# raw and generated data (download weatherAUS.csv from Kaggle instead of committing it)
+weatherAUS.csv
+data/
+.ipynb_checkpoints/
+__pycache__/
+.venv/

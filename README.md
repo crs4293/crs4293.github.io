@@ -1,4 +1,4 @@
-#Callum Ross Serbetci — Project Portfolio
+##Callum Ross Serbetci — Project Portfolio
 
 A collection of projects I've built while learning and working on Embedded Systems, Machine Learning, Data Analysis, and more. Each project lives in its own folder with its own README, code, and write-up.
 

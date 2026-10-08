@@ -1,0 +1,5 @@
+weatherAUS.csv
+data/
+.ipynb_checkpoints/
+__pycache__/
+.venv/

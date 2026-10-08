@@ -1,6 +1,6 @@
-# 👋 [Your Name] — Project Portfolio
+#Callum Ross Serbetci — Project Portfolio
 
-A collection of projects I've built while learning and working on [your main areas, e.g. data analysis, web development, machine learning]. Each project lives in its own folder with its own README, code, and write-up.
+A collection of projects I've built while learning and working on Embedded Systems, Machine Learning, Data Analysis, and more. Each project lives in its own folder with its own README, code, and write-up.
 
 ---
 
@@ -12,7 +12,7 @@ portfolio/
 └── projects/
     ├── project-one/
     │   ├── README.md          ← full write-up for this project
-    │   ├── assets/
+    │   ├── images/
     │   │   └── thumbnail.png  ← image shown on this page
     │   └── ...                ← code, data, notebooks, etc.
     ├── project-two/
@@ -37,9 +37,9 @@ Every project folder is self-contained. Start with its `README.md` to see the go
 
 ## 🧭 Browse by subject
 
-- **[Subject A]** — [Project One](projects/project-one)
-- **[Subject B]** — [Project Two](projects/project-two)
-- **[Subject C]** — [Project Three](projects/project-three)
+- **Embedded Systems** — [Convolutional Nueral Network](projects/ML-Emb-CNN)
+- **Machine Learning** — [ML Rain Predictor](projects/ML-AusRain), [Convolutional Nueral Network](projects/ML-Emb-CNN)
+- **[Placeholder]** — [Project Three](projects/project-three)
 
 ---
 

@@ -29,8 +29,8 @@ Every project folder is self-contained. Start with its `README.md` to see the go
 
 | | Project | About | Subjects covered |
 |:--:|---------|-------|------------------|
-| <img src="projects/project-one/assets/thumbnail.png" width="120" alt="image"> | **[Embedded Convolutional Nueral Network](Projects/ML-Emb-CNN)** | One or two sentences on what this project does and why you built it. | `Python` `Data Analysis` `Visualisation` |
-| <img src="projects/project-two/assets/thumbnail.png" width="120" alt="image"> | **[Project Two](projects/project-two)** | One or two sentences on what this project does and why you built it. | `JavaScript` `APIs` `Front-end` |
+| <img src="projects/project-one/assets/thumbnail.png" width="120" alt="image"> | **[Embedded Convolutional Nueral Network](Projects/ML-Emb-CNN)** | This project implements a convolutional nueral network through FPGA architecture. The CNN is trained on the MNIST dataset and uses FSMs, BRAM, DSPs, MACs, and other entities to implement its functioanlity. | `VHDL` `FPGA` `ML` |
+| <img src="projects/project-two/assets/thumbnail.png" width="120" alt="image"> | **[ML Weather Forecasting](projects/ML-AusRain)** | This project aims to classify the weather conditions of the day given the environmental parameters. This is achieved through data preprocessing, feature engineering, and data imputation. | `Python` `Jupyter Notebooks` `ML`|
 | <img src="projects/project-three/assets/thumbnail.png" width="120" alt="image"> | **[Project Three](projects/project-three)** | One or two sentences on what this project does and why you built it. | `SQL` `Databases` `Reporting` |
 
 ---
@@ -45,7 +45,12 @@ Every project folder is self-contained. Start with its `README.md` to see the go
 
 ## 🛠️ Skills & tools
 
-`Python` · `SQL` · `Git` · `[add yours]`
+**Languages:** `VHDL` · `Verilog` · `C++` · `Python` · `C#` · `Java` · `JavaScript` · `Node.js` · `MATLAB`  
+**Hardware & EDA Tools:** `Vivado` · `Vitis` · `Altium Designer` · `KiCad` · `LTspice` · `AutoCAD`  
+**Software & Tools:** `Git` · `Linux` · `Visual Studio` · `LaTeX` · `Microsoft Office`  
+**Libraries, Frameworks & Protocols:** `NumPy` · `Pandas` · `Scikit-learn` · `OpenCV` · `Tesseract OCR` · `libcurl` · `MongoDB` · `RAG` · `I2C` · `UART` · `SPI`  
+**Lab Equipment:** `Oscilloscope` · `Digital Multimeter` · `Function Generator` · `Power Supply` · `Soldering Station`  
+**Electronics:** `Op-Amps` · `Logic Gates` · `Flip-Flops` · `MOSFETs` · `BJTs` · `Multiplexers` · `Diodes`
 
 ---
 

@@ -162,10 +162,10 @@ Time-aware cross-validation and hyperparameter search · threshold tuning for a 
 ## Run it yourself
 
 ```bash
-git clone <your-repo-url> && cd <your-repo>
-pip install -r requirements.txt
-# download weatherAUS.csv from Kaggle ("Rain in Australia") into the repo root
-jupyter notebook notebooks/AustraliaWeatherDatasetMLproject.ipynb
+git clone https://github.com/crs4293/crs4293.github.io.git && cd crs4293.github.io
+pip install -r Projects/ML-AusRain/requirements.txt
+# download weatherAUS.csv from Kaggle ("Rain in Australia") into Projects/ML-AusRain/
+jupyter notebook Projects/ML-AusRain/notebooks/AustraliaWeatherDatasetMLproject.ipynb
 ```
 
 The whole notebook runs in a few minutes on a laptop. Set the `WEATHER_CSV` environment variable if the CSV lives elsewhere (in Google Colab the notebook mounts Drive and looks in `Colab Notebooks`). Set `SHOW_ALL_FEATURE_PLOTS = True` in the first code cell for one plot per feature. The notebook also writes the cleaned dataset to `data/` and all metrics to `results/`.
@@ -177,7 +177,10 @@ The whole notebook runs in a few minutes on a laptop. Set the `WEATHER_CSV` envi
 ├── results/         # model_comparison.csv, imputation_validation.csv, feature_importance.csv, summary JSON
 ├── images/          # figures used in this README
 ├── requirements.txt
-└── README.md
+├── README.md
+├── notebooks/
+    └── AustraliaWeatherDatasetMLproject.ipynb
+
 ```
 
 ## Tech stack

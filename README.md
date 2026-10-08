@@ -29,8 +29,8 @@ Every project folder is self-contained. Start with its `README.md` to see the go
 
 | | Project | About | Subjects covered |
 |:--:|---------|-------|------------------|
-| <img src="projects/project-one/assets/thumbnail.png" width="120" alt="Project One"> | **[Project One](projects/project-one)** | One or two sentences on what this project does and why you built it. | `Python` `Data Analysis` `Visualisation` |
-| <img src="projects/project-two/assets/thumbnail.png" width="120" alt="Project Two"> | **[Project Two](projects/project-two)** | One or two sentences on what this project does and why you built it. | `JavaScript` `APIs` `Front-end` |
+| <img src="projects/project-one/assets/thumbnail.png" width="120" alt="Embedded Convolutional Nueral Network"> | **[Project One](projects/ML-Emb-CNN)** | One or two sentences on what this project does and why you built it. | `Python` `Data Analysis` `Visualisation` |
+| <img src="projects/project-two/assets/thumbnail.png" width="120" alt="ML Rain Predictor"> | **[Project Two](projects/project-two)** | One or two sentences on what this project does and why you built it. | `JavaScript` `APIs` `Front-end` |
 | <img src="projects/project-three/assets/thumbnail.png" width="120" alt="Project Three"> | **[Project Three](projects/project-three)** | One or two sentences on what this project does and why you built it. | `SQL` `Databases` `Reporting` |
 
 ---
@@ -50,11 +50,8 @@ Every project folder is self-contained. Start with its `README.md` to see the go
 ---
 
 ## 📬 Get in touch
-
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- Email: crserbetci@gmail.com
 
 ---
 
-<sub>Last updated: [Month Year]</sub>
+<sub>Last updated: [10/2026]</sub>

@@ -1,0 +1,130 @@
+{
+  "raw_rows": 145460,
+  "raw_columns": 23,
+  "raw_locations": 49,
+  "nan_pct_by_column_raw": {
+    "Sunshine": 48.01,
+    "Evaporation": 43.167,
+    "Cloud3pm": 40.807,
+    "Cloud9am": 38.422,
+    "Pressure9am": 10.357,
+    "Pressure3pm": 10.331,
+    "WindDir9am": 7.264,
+    "WindGustDir": 7.099,
+    "WindGustSpeed": 7.056,
+    "Humidity3pm": 3.098,
+    "WindDir3pm": 2.907,
+    "Temp3pm": 2.481,
+    "RainTomorrow": 2.246,
+    "Rainfall": 2.242,
+    "RainToday": 2.242,
+    "WindSpeed3pm": 2.105,
+    "Humidity9am": 1.825,
+    "WindSpeed9am": 1.215,
+    "Temp9am": 1.215,
+    "MinTemp": 1.021,
+    "MaxTemp": 0.867,
+    "Date": 0.0,
+    "Location": 0.0
+  },
+  "locations_removed": [
+    "Adelaide",
+    "Albany",
+    "Albury",
+    "BadgerysCreek",
+    "Ballarat",
+    "Bendigo",
+    "Cobar",
+    "Dartmoor",
+    "GoldCoast",
+    "Katherine",
+    "Launceston",
+    "MountGinini",
+    "Newcastle",
+    "Nhil",
+    "NorahHead",
+    "PearceRAAF",
+    "Penrith",
+    "Richmond",
+    "SalmonGums",
+    "Tuggeranong",
+    "Uluru",
+    "Walpole",
+    "Witchcliffe",
+    "Wollongong"
+  ],
+  "locations_remaining": 25,
+  "rows_after_location_removal": 77031,
+  "rows_dropped_missing_target": 1708,
+  "numeric_missing_after_imputation": 0,
+  "knn_vs_mean_median_rmse_improvement_pct": 40.25,
+  "final_rows": 75323,
+  "final_columns": 27,
+  "rain_tomorrow_yes_pct": 22.22,
+  "rain_tomorrow_no_pct": 77.78,
+  "knn": {
+    "n_neighbors": 5,
+    "weights": "distance",
+    "metric": "nan_euclidean"
+  },
+  "split": {
+    "cutoff": "2016-01-01",
+    "train_rows": 62133,
+    "test_rows": 13190,
+    "train_rain_pct": 22.051083965042732,
+    "test_rain_pct": 23.03260045489007
+  },
+  "model_results": {
+    "Always predict 'no rain'": {
+      "accuracy": 0.7697,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "pr_auc": 0.2303
+    },
+    "Persistence (tomorrow = today)": {
+      "accuracy": 0.745,
+      "precision": 0.4493,
+      "recall": 0.4737,
+      "f1": 0.4611,
+      "roc_auc": 0.65,
+      "pr_auc": 0.334
+    },
+    "Logistic regression (KNN-imputed)": {
+      "accuracy": 0.7901,
+      "precision": 0.5298,
+      "recall": 0.786,
+      "f1": 0.633,
+      "roc_auc": 0.8692,
+      "pr_auc": 0.6988
+    },
+    "Gradient boosting (KNN-imputed)": {
+      "accuracy": 0.7995,
+      "precision": 0.5438,
+      "recall": 0.8051,
+      "f1": 0.6492,
+      "roc_auc": 0.8826,
+      "pr_auc": 0.7341
+    },
+    "Gradient boosting (raw NaNs, no imputation)": {
+      "accuracy": 0.8074,
+      "precision": 0.5574,
+      "recall": 0.7943,
+      "f1": 0.6551,
+      "roc_auc": 0.8854,
+      "pr_auc": 0.7351
+    }
+  },
+  "best_model": "Gradient boosting (raw NaNs, no imputation)",
+  "top_features": {
+    "Humidity3pm": 0.1093,
+    "Pressure3pm": 0.0436,
+    "Sunshine": 0.0302,
+    "WindGustSpeed": 0.0267,
+    "Rainfall": 0.0097,
+    "Cloud3pm": 0.0078,
+    "WindDir3pm_cos": 0.0039,
+    "Pressure9am": 0.0037
+  }
+}
